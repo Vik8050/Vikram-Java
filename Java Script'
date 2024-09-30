@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Java') {
+            steps {
+                echo 'Java Script'
+            }
+        }
+    }
+}
